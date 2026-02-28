@@ -1,0 +1,6 @@
+main.py
+ ├── audio_recording.py  (mic capture + Whisper)
+ │    └── router.py      (keyword → action)
+ ├── assistant.py        (wake-key 'i' flow)
+ │    └── greeting.py    (Qwen generation)
+ └── (both router.py and assistant.py) → tts.py
